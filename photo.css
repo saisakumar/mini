@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    float: left;
+    width: 100%;
+    clear: both;
+    
+}
+.header{
+    position: fixed;
+    float: left;
+    
+    width: 100%;
+    
+    padding: 15px 0px;
+    background-color: #d1b8cf;
+}
+
+.container{
+    width: 1200px;
+    display: inline-block;
+    
+    margin: 0px auto;
+}
+.logo{
+    float: left;
+    padding: 12px;
+    
+}
+.logo h1{
+    font-family: Serif;
+    color:black;
+}
+.menus{
+    float:right;
+}
+.con{
+    padding-right: 10px;
+}
+.menus ul{
+    /* border: 1px solid green; */
+    margin-top: 3px;
+}
+.menus ul li{
+    display: inline-block;
+    
+}
+.menus ul li a{
+    font-size: 20px;
+    color: black;
+    font-family: Serif;
+    text-decoration: none;
+    padding-right: 50px;
+}
+ul li a:hover{
+    color: blue;
+}
+.section1{
+    float: left;
+    width: 100%;
+    height: 200px;
+    
+    padding: 150px 0px;
+    
+    background-image: url("https://source.unsplash.com/1600x900/?mountain");
+    background-attachment: fixed;
+    
+    background-size: 100%;
+}
+.section2{
+    float: left;
+    width: 100%;
+    height: 300px;
+    
+    padding: 150px 0px;
+    
+    background-image: url("https://source.unsplash.com/1600x900/?underwater");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.section3{
+    float: left;
+    width: 100%;
+    height: 300px;
+    
+    padding: 150px 0px;
+    
+    background-image: url("https://source.unsplash.com/1600x900/?nature");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.section4{
+    float: left;
+    width: 100%;
+    height: 300px;
+    
+    padding: 150px 0px;
+    
+    background-image: url("https://source.unsplash.com/1600x900/?animal");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.section5{
+    float: left;
+    width: 200%;
+    width: 100%;
+    height: 300px;
+    
+    padding: 150px 0px;
+    
+    background-image: url("https://source.unsplash.com/1600x900/?birds");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.section-light{background-color: #b2e4c3;
+    color: #053B09;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.btn{
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-left: calc(50% - 123px);
+    
+    border: 2px white;
+    background: rgba(0,0,0,0.5);
+    color:white;
+}
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: auto;
+        color: #333;
+      }
+      
+      footer h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
+      }
